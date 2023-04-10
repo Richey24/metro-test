@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.mainNavDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    font-family: satoshi;
+}
+
+.mainNavDiv>div {
+    display: flex;
+    column-gap: 46px;
+    align-items: center;
+}
+
+.mainNavDiv>div>p {
+    color: #0D47A1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainNavDiv>div>button {
+    width: 128px;
+    height: 48px;
+    background-color: #DE4277;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 40px;
+    height: 29px;
+}
+
+.language {
+    display: flex;
+    column-gap: 10px;
+}

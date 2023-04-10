@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+.mainHead {
+    display: flex;
+    margin-top: 107px;
+    column-gap: 100px;
+    font-family: satoshi;
+}
+
+.firstDiv {
+    padding-top: 38px;
+}
+
+.firstDiv>h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0D47A1;
+    border-bottom: 5px solid #0D47A1;
+    width: 55px;
+    white-space: nowrap;
+}
+
+.firstDiv>h1 {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 75px;
+    color: #0D47A1;
+    margin-bottom: 10px;
+}
+
+.firstDiv>h1>span {
+    color: #46C5E7;
+}
+
+.firstDiv>p {
+    color: #00000099;
+}
+
+.firstDiv>div {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 12px;
+}
+
+.firstDiv>div>button {
+    width: 192px;
+    height: 48px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.firstDiv>div>button:first-child {
+    background-color: #0D47A1;
+}
+
+.firstDiv>div>button:last-child {
+    background-color: #DE4277;
+}
+
+.bgImage {
+    height: 500px;
+    width: 100%;
+}
+
+.imageDiv {
+    width: 1320px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.imageDiv>div {
+    width: 536px;
+    height: 22px;
+    background-color: #0D47A1;
+    margin-top: -10px;
+}
